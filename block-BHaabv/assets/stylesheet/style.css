@@ -164,7 +164,7 @@ a {
 
 .status {
   display: inline-block;
-  margin-left: 5px;
+  margin-left: 8px;
   font-size: 14px;
   font-weight: bold;
 }
@@ -266,6 +266,7 @@ a {
   color: #9398b7;
   display: inline-block;
   margin-left: 10px;
+  font-weight: 500;
 }
 
 .no-of-followers {
