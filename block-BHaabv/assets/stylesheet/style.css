@@ -138,15 +138,47 @@ body {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
-  background: #252b42;
+  background: #20222f;
   color: #fff;
 }
 a {
   text-decoration: none;
 }
+
+/* Custom styles */
+
+.social-icon {
+  font-size: 25px;
+  color: #168ff5;
+}
+.youtube {
+  color: #c20328;
+}
+.instagram {
+  background: linear-gradient(to bottom, #f0af75 0%, #da608f 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.status {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.trend-up {
+  color: #46938d;
+}
+.trend-down {
+  color: #923b49;
+}
+
 /* Container */
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   width: 90%;
   margin: 0 auto;
 }
@@ -189,4 +221,62 @@ a {
   position: absolute;
   top: 10%;
   left: 5%;
+}
+
+/* Followers */
+.followers {
+  margin: 64px 0;
+}
+.box {
+  text-align: center;
+  background: #252b43;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  margin-top: 5px;
+}
+
+.facebook-box,
+.twitter-box,
+.instagram-box,
+.youtube-box {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  width: 22.22%;
+}
+.facebook-box,
+.twitter-box {
+  background: #168ff5;
+}
+.instagram-box {
+  background: linear-gradient(to right, #f0af75, #da608f);
+}
+.youtube-box {
+  background: #c20328;
+}
+
+.user {
+  font-size: 14px;
+  color: #9398b7;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.no-of-followers {
+  margin: 16px 0;
+}
+.followers-heading {
+  font-size: 55px;
+  font-weight: bold;
+}
+.followers-text {
+  color: #9398b7;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
