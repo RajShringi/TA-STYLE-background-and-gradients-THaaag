@@ -141,6 +141,9 @@ body {
     url("../media/pexels-pixmike-413195.jpg") no-repeat;
   background-size: cover;
 }
+img {
+  width: 100%;
+}
 /* Custom styles */
 .padding {
   padding: 64px 0;
@@ -182,13 +185,29 @@ body {
   border-radius: 20px;
   width: 30.33%;
 }
-.box span {
+span {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 32px;
 }
 .box-2 {
   background: linear-gradient(to right, rgb(46, 43, 43), #ff0248);
 }
 .box-3 {
   background: radial-gradient(#ff0248, rgb(46, 43, 43));
+}
+
+/* Box image */
+.box-img {
+  padding: 64px 32px;
+}
+.box-4 {
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.5),
+      rgba(246, 62, 62, 0.5) 60%
+    ),
+    url("../media/pexels-james-wheeler-417074.jpg");
+  height: 600px;
+  border-radius: 20px;
+  background-size: cover;
 }
