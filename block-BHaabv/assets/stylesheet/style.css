@@ -1,0 +1,312 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap");
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  background: #20222f;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+}
+
+/* Custom styles */
+
+.social-icon {
+  font-size: 25px;
+  color: #168ff5;
+}
+.youtube {
+  color: #c20328;
+}
+.instagram {
+  background: linear-gradient(to bottom, #f0af75 0%, #da608f 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.status {
+  display: inline-block;
+  margin-left: 8px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.trend-up {
+  color: #46938d;
+}
+.trend-down {
+  color: #923b49;
+}
+
+/* Container */
+.container {
+  max-width: 1400px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Flex */
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+
+/* Hero */
+.header {
+  padding: 32px 0;
+}
+.hero-heading {
+  font-size: 34px;
+  font-weight: bold;
+}
+.hero p,
+.mode span {
+  color: #9398b7;
+  font-weight: 600;
+}
+
+.toogle-bar {
+  background: linear-gradient(to right, #4897cb, #3fc69c);
+  width: 60px;
+  height: 30px;
+  border-radius: 15px;
+  margin-left: 16px;
+  cursor: pointer;
+  position: relative;
+}
+.round {
+  width: 25px;
+  height: 25px;
+  background: #252b42;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+
+/* Followers */
+.followers {
+  margin: 64px 0;
+}
+.box {
+  text-align: center;
+  background: #252b43;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  margin-top: 5px;
+}
+
+.facebook-box,
+.twitter-box,
+.instagram-box,
+.youtube-box {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  width: 22.22%;
+}
+.facebook-box,
+.twitter-box {
+  background: #168ff5;
+}
+.instagram-box {
+  background: linear-gradient(to right, #f0af75, #da608f);
+}
+.youtube-box {
+  background: #c20328;
+}
+
+.user {
+  font-size: 14px;
+  color: #9398b7;
+  display: inline-block;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.no-of-followers {
+  margin: 16px 0;
+}
+.followers-heading {
+  font-size: 55px;
+  font-weight: bold;
+}
+.followers-text {
+  color: #9398b7;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+/* Overview Section */
+.overview-heading {
+  font-size: 28px;
+  margin-bottom: 32px;
+  font-weight: 600;
+}
+.overview-box {
+  width: 22.22%;
+  background: #252b43;
+  padding: 16px;
+  border-radius: 6px;
+  margin-bottom: 32px;
+}
+.top {
+  margin-bottom: 32px;
+}
+.top-name {
+  font-size: 13px;
+  color: #9398b7;
+  font-weight: 600;
+}
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
