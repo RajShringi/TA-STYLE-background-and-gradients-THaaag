@@ -189,6 +189,9 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+.wrap {
+  flex-wrap: wrap;
+}
 
 /* Hero */
 .header {
@@ -280,4 +283,30 @@ a {
   color: #9398b7;
   text-transform: uppercase;
   letter-spacing: 5px;
+}
+
+/* Overview Section */
+.overview-heading {
+  font-size: 28px;
+  margin-bottom: 32px;
+  font-weight: 600;
+}
+.overview-box {
+  width: 22.22%;
+  background: #252b43;
+  padding: 16px;
+  border-radius: 6px;
+  margin-bottom: 32px;
+}
+.top {
+  margin-bottom: 32px;
+}
+.top-name {
+  font-size: 13px;
+  color: #9398b7;
+  font-weight: 600;
+}
+h2 {
+  font-size: 32px;
+  font-weight: bold;
 }
